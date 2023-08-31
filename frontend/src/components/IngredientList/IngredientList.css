@@ -1,0 +1,17 @@
+.ingredient-list {
+	padding: 1rem;
+}
+.ingredient {
+	background-color: transparent;
+	border: 0;
+	outline: none !important;
+	padding: 0;
+	padding-bottom: 0.4rem;
+	width: 100%;
+	font-size: 1.2rem;
+	margin-top: 1rem;
+	font-family: "Pangolin", cursive;
+}
+.ingredient:focus {
+	border-bottom: 1px solid #ccc;
+}

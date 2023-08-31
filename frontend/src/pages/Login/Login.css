@@ -1,0 +1,30 @@
+.login button {
+	color: white;
+	padding: 20px;
+	margin: 1rem;
+	border: none;
+	cursor: pointer;
+	width: 5rem;
+	transition: 0.3s;
+	border-radius: 10px;
+}
+.login button.spotify {
+	background-color: #4caf50;
+}
+.login button.anonymous {
+	background-color: #000;
+}
+.login button img {
+	width: 100%;
+}
+
+.login button:hover {
+	opacity: 0.8;
+}
+.login .login-options {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	user-select: none;
+	transform: translate(-50%, -50%);
+}
